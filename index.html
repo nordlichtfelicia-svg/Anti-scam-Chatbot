@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <title>防騙學習 Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            font-size: 20px;
+        }
+        #chatbox {
+            width: 100%;
+            height: 400px;
+            border: 2px solid #999;
+            padding: 10px;
+            overflow-y: scroll;
+            background: white;
+        }
+        #userInput {
+            width: 80%;
+            font-size: 20px;
+            padding: 10px;
+        }
+        #sendBtn {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>防騙學習 Chatbot（英文 + 繁體中文）</h2>
+<p>請輸入你的問題或可疑訊息：</p>
+
+<div id="chatbox"></div>
+
+<br>
+<input type="text" id="userInput" placeholder="輸入訊息...">
+<button id="sendBtn">送出</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
