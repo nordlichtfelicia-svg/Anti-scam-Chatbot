@@ -10,22 +10,17 @@
             padding: 20px;
             font-size: 20px;
         }
-        #chatbox {
-            width: 100%;
-            height: 400px;
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        iframe {
             border: 2px solid #999;
-            padding: 10px;
-            overflow-y: scroll;
-            background: white;
-        }
-        #userInput {
-            width: 80%;
-            font-size: 20px;
-            padding: 10px;
-        }
-        #sendBtn {
-            font-size: 20px;
-            padding: 10px 20px;
+            border-radius: 8px;
+            width: 100%;
+            height: 600px;
         }
     </style>
 </head>
@@ -34,13 +29,11 @@
 <h2>防騙學習 Chatbot（英文 + 繁體中文）</h2>
 <p>請輸入你的問題或可疑訊息：</p>
 
-<div id="chatbox"></div>
-
-<br>
-<input type="text" id="userInput" placeholder="輸入訊息...">
-<button id="sendBtn">送出</button>
-
-<script src="script.js"></script>
+<!-- Hugging Face Web Chat Widget -->
+<iframe
+  src="https://huggingface.co/spaces/yuntian-deng/ChatGPT"
+  title="Anti-Scam Chatbot">
+</iframe>
 
 </body>
 </html>
