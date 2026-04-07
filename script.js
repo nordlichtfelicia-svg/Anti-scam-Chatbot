@@ -1,4 +1,4 @@
-const HF_API_KEY = "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";
+const HF_API_KEY = "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";
 
 const SYSTEM_PROMPT = `
 You are an AI chatbot designed to help Hong Kong elderly users understand and avoid cyber scams. 
